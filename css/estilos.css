@@ -1,3 +1,13 @@
+/*------------------------Variables*/
+
+:root{
+    --green-color:#04c504;
+    --white-color: white;
+    --black-color: black;
+}
+
+/*------------------------Variables*/
+
 html, body{
     padding: 0px;
     margin: 0px;
@@ -6,9 +16,9 @@ html, body{
 
 nav{
     display: flex;
-    background: #04c504;
+    background-color: var(--green-color);
     padding: 5px;
-    color: white;
+    color: var(--white-color);
     justify-content: space-between;
     align-items: center;
 }
@@ -24,14 +34,14 @@ nav li{
 }
 
 nav li a{
-     color: black;
+     color: var(--black-color);
      text-decoration: none;
      font-size: 25px;
      
 }
 
 nav li a:hover{
-    color: white;
+    color: var(--white-color);
 }
 
 /* ------------------------ Main section */
@@ -59,7 +69,7 @@ nav li a:hover{
 }
 
 .product .content{
-    background-color: white;
+    background-color: var(--white-color);
     padding: 15px;
     border: 10px;
     box-shadow: 0 0 1px #d2cfcf;
@@ -70,11 +80,11 @@ nav li a:hover{
 }
 
 .main-buttom{
-    background-color: #04c504;
+    background-color:var(--green-color);
     width: 100%;
     padding: 10px;
     font-size: 17px;
-    color: white;
+    color: var(--white-color);
     border: 0;
 }
 
