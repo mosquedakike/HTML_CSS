@@ -67,13 +67,13 @@ nav li a:hover{
     max-height: 50px;
     background-size: cover;
     background-position: center top; 
-    padding: 25%;
+    padding: 30%;
     display: flex;
 }
 
 .product{
     padding: var(--space);
-    margin-top: -600px;
+    margin-top: -500px;
     text-align: center;
 }
 
@@ -86,6 +86,11 @@ nav li a:hover{
 
 .img_content{
     text-align: center;
+}
+
+.img-box{
+    width: 200px;
+    height: 150px;
 }
 
 .main-buttom{
