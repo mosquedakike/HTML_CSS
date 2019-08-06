@@ -126,3 +126,8 @@ nav li a:hover{
     height: 200px;
 }
 
+.footer{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--green-color);
+}
