@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
 /*------------------------Variables*/
 
 :root{
     --green-color:#04c504;
     --white-color: white;
     --black-color: black;
+    /* space */
+    --space:10px;
+    /* Tipografia */
+    --normal:14px;
+    /* box shadow */
+    --box: 0 0 1px #d2cfcf;
 }
 
 /*------------------------Variables*/
@@ -11,7 +19,7 @@
 html, body{
     padding: 0px;
     margin: 0px;
-    font-family: 'Arial';
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav{
@@ -36,7 +44,7 @@ nav li{
 nav li a{
      color: var(--black-color);
      text-decoration: none;
-     font-size: 25px;
+     font-size: var(--normal);
      
 }
 
@@ -58,21 +66,21 @@ nav li a:hover{
     max-height: 50px;
     background-size: cover;
     background-position: center top; 
-    padding: 30%;
+    padding: 25%;
     display: flex;
 }
 
 .product{
-    padding: 10px;
-    margin-top: -550px;
+    padding: var(--space);
+    margin-top: -600px;
     text-align: center;
 }
 
 .product .content{
     background-color: var(--white-color);
     padding: 15px;
-    border: 10px;
-    box-shadow: 0 0 1px #d2cfcf;
+    border: var(--space);
+    box-shadow:var(--box);
 }
 
 .img_content{
@@ -82,7 +90,7 @@ nav li a:hover{
 .main-buttom{
     background-color:var(--green-color);
     width: 100%;
-    padding: 10px;
+    padding: var(--space);
     font-size: 17px;
     color: var(--white-color);
     border: 0;
