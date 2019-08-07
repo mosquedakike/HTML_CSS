@@ -25,7 +25,7 @@ html, body{
 
 nav{
     display: flex;
-    background-color: var(--green-color);
+    background-color: #1d252c;
     padding: 5px;
     color: var(--white-color);
     justify-content: space-between;
@@ -43,7 +43,7 @@ nav li{
 }
 
 nav li a{
-     color: var(--black-color);
+     color: var(--white-color);
      text-decoration: none;
      font-size: var(--normal);
      
@@ -51,6 +51,10 @@ nav li a{
 
 nav li a:hover{
     color: var(--white-color);
+}
+
+p{
+    margin: 0;
 }
 
 /* ------------------------ Main section */
@@ -62,7 +66,7 @@ nav li a:hover{
     text-align: center;
 }
 
-.products{
+.products-box{
     background-image: url("../images/curve.png ");
     max-height: 50px;
     background-size: cover;
@@ -71,13 +75,13 @@ nav li a:hover{
     display: flex;
 }
 
-.product{
+.product-box{
     padding: var(--space);
-    margin-top: -500px;
+    margin-top: -650px;
     text-align: center;
 }
 
-.product .content{
+.product-box .content-box{
     background-color: var(--white-color);
     padding: 15px;
     border: var(--space);
@@ -118,16 +122,39 @@ nav li a:hover{
     padding: 15px;
     text-align: center;
     padding: 15px;
-    margin: var(--space);
+    margin: 70px;
 }
 
-.leche{
-    width: 200px;
-    height: 200px;
+.img-product{
+    width: 400px;
+    height: 400px;
+}
+
+.title-comments{
+    text-align: center;
+    justify-content: center;
+}
+
+.opinion{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.opinion-clients{
+    margin: 25px;
+}
+
+.img-client{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px 200px 200px 200px;
 }
 
 .footer{
-    padding: 0px;
-    margin: 0px;
-    background-color: var(--green-color);
+    padding: 15px;
+    border: 5px;
+    background-color: #1d252c;
+    color: white;
+    text-align: right;
 }
