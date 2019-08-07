@@ -25,7 +25,7 @@ html, body{
 
 nav{
     display: flex;
-    background-color: #1d252c;
+    background-color: var(--green-color);
     padding: 5px;
     color: var(--white-color);
     justify-content: space-between;
@@ -142,12 +142,12 @@ p{
 }
 
 .opinion-clients{
-    margin: 25px;
+    margin: 20px;
 }
 
 .img-client{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 200px 200px 200px 200px;
 }
 
